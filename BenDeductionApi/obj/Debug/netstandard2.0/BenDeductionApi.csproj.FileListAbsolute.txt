@@ -1,0 +1,9 @@
+C:\Users\hindo\Desktop\BenDeductionNew\BenDeductionApi\obj\Debug\netstandard2.0\BenDeductionApi.csproj.CoreCompileInputs.cache
+C:\Users\hindo\Desktop\BenDeductionNew\BenDeductionApi\obj\Debug\netstandard2.0\BenDeductionApi.AssemblyInfoInputs.cache
+C:\Users\hindo\Desktop\BenDeductionNew\BenDeductionApi\obj\Debug\netstandard2.0\BenDeductionApi.AssemblyInfo.cs
+C:\Users\hindo\Desktop\BenDeductionNew\BenDeductionApi\bin\Debug\netstandard2.0\BenDeductionApi.deps.json
+C:\Users\hindo\Desktop\BenDeductionNew\BenDeductionApi\bin\Debug\netstandard2.0\BenDeductionApi.dll
+C:\Users\hindo\Desktop\BenDeductionNew\BenDeductionApi\bin\Debug\netstandard2.0\BenDeductionApi.pdb
+C:\Users\hindo\Desktop\BenDeductionNew\BenDeductionApi\obj\Debug\netstandard2.0\BenDeductionApi.dll
+C:\Users\hindo\Desktop\BenDeductionNew\BenDeductionApi\obj\Debug\netstandard2.0\BenDeductionApi.pdb
+C:\Users\hindo\Desktop\BenDeductionNew\BenDeductionApi\obj\Debug\netstandard2.0\BenDeductionApi.csprojAssemblyReference.cache

@@ -1,0 +1,77 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <script>
+        function GetDynamicTextbox(value) {
+
+            return '<div><input type="text" id="txtDep" name="txtBen" style="width:200px;" /><input type="button" onclick="RemoveTextBox(this)" value="Remove Dependent" /><br /><br /></div>';
+
+        }
+
+        function AddTextBox() {
+
+            var emp = document.getElementById("txtEmp").value;
+            if (emp == "") {
+                alert("Please enter employee name first");
+
+            }
+
+            else {
+                var div = document.createElement('DIV');
+
+                div.innerHTML = GetDynamicTextbox("");
+
+                document.getElementById("divCont").appendChild(div);
+            }
+
+
+
+        }
+
+        function RemoveTextBox(div) {
+
+            document.getElementById("divCont").removeChild(div.parentNode.parentNode);
+
+        }
+
+
+    </script>
+
+</head>
+<body>
+    <div>
+
+        <form method="post">
+
+            <div id="divCont">
+
+                <div>
+                    Enter Employee Name : <input type="text" id="txtEmp" name="txtBen" style="width:200px;" value="" />
+                    <br /><br />
+                    <input type="button" onclick="AddTextBox()" value="Add Dependent" />
+                </div>
+                <br />
+            </div><br />
+
+            <input type="submit" value="Calculate Deduction" />
+
+            <br />
+            <br />
+
+            <textarea id="txtResult" rows="20" cols="100"> @ViewBag.Result</textarea>
+
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
